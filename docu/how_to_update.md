@@ -4,7 +4,8 @@ spielsachenbasar-mundelsheim.de
 1 access Strato ftp server
 ------------------------
 use a FTP cleint of your favor connect to:
-(ssh.strator.de)[ssh.strator.de]
+
+`ssh.strator.de`
 
 
 2 edit FillHtml.js to update Basar information or set the top-info-box message
