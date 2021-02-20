@@ -4,12 +4,12 @@ spielsachenbasar-mundelsheim.de
 1 access Strato ftp server
 ------------------------
 use a FTP cleint of your favor connect to:
-[ssh.strator.de]
+(ssh.strator.de)[ssh.strator.de]
 
 
-2 edit FillHtml.js to update Basar information or set the Infobox message
+2 edit FillHtml.js to update Basar information or set the top-info-box message
 -------------------------------------------------------------------------
-open the FillHtml.js file with an text editor, the firs tlike schould look like:
+open the FillHtml.js file with an text editor, the first lines should look like:
 
 ```javascript
 var Aktueller_Basar_Signatur = "mundel3rfergr"
@@ -26,8 +26,8 @@ var Top_Info_Box_Text        = [
 ```
 
 
-* to update Basar dates, set a new string to `Aktuelles_Basar_Datum` and `Folgendes_Basar_Datum`; make sure to not remove the quotes ("") and follow to date order year, month, day
+* to update Basar dates, set a new string to `Aktuelles_Basar_Datum` and `Folgendes_Basar_Datum`; make sure not to remove the quotes ("") and follow to date order year, month, day
 * to update Basar signature, paste the signatur created by EasyBasar in this string
-* to set a Infobox message with headline, if you would like to display the big infobox on the webpage to make an anouncement set `Top_Info_Box_Anzeigen` to true (no quotes here!) and fill both strings `Top_Info_Box` and `Top_Info_Box_Text`. Pay attention to `Top_Info_Box_Text`; each line is a separated entry, it has to be quoted and concatenated by comma.
+* to set a Infobox message with headline, if you would like to display the top-info-box on the webpage to make an anouncement set `Top_Info_Box_Anzeigen` to true (no quotes here!) and fill both strings `Top_Info_Box` and `Top_Info_Box_Text`. Pay attention to `Top_Info_Box_Text`; each line is a separated entry, it has to be quoted and concatenated by comma.
 
 
