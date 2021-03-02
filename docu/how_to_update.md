@@ -3,14 +3,14 @@ spielsachenbasar-mundelsheim.de
 
 1 access Strato ftp server
 ------------------------
-use a FTP cleint of your favor connect to:
+use a FTP client of your favor connect to:
 
 `ssh.strato.de`
 
 
 2 edit FillHtml.js to update Basar information or set the top-info-box message
 -------------------------------------------------------------------------
-open the FillHtml.js file with an text editor, the first lines should look like:
+open the FillHtml.js file with your text editor, the first lines should look like:
 
 ```javascript
 var Aktueller_Basar_Signatur = "mundel3rfergr"
